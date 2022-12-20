@@ -1,0 +1,6 @@
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* fr makes the grid responsive in terms of shrinking and enlarging the browser*/
+    grid-template-rows: repeat(2, 100px); /*100px wont be responsive when enlarging or shrinking the browser */
+}

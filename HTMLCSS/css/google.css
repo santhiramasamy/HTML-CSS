@@ -1,0 +1,38 @@
+.goog-input{
+    margin-top: 100px;
+}
+
+.image{
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputtype{
+    display:block;
+    width: 400px;
+    height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 30px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+
+.btn{
+    margin-top: 30px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 8px 16px;
+    border:none;
+    border-radius: 4px;
+    font-size: 14px;
+    background: #dfe1e5;
+}
+
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+}

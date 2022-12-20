@@ -1,0 +1,7 @@
+.container {
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px;*/
+    grid-template: repeat(2, 50px) / repeat(3, 1fr); /* shorthand property */
+    grid-gap: 3px;
+}
